@@ -8,13 +8,23 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
-
+    align-items: center;
+    background: #1F2937;
+    color: #f9faf8;
+    padding-bottom: 40px;
 }
 
 .hero {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: #1F2937;
+}
 
+
+/*underneath is color and text adjustments*/
+ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
 }
