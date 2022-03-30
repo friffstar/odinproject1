@@ -98,21 +98,22 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 200px;
+    height: 120px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    padding: 40px;
+    padding-top: 80px;
 }
 .quotetext {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 p {
    font-size: 14px;
    font-style: normal;
+   width: 180px;
+   font-weight: 700;
 }
 
 
