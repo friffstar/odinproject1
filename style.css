@@ -12,7 +12,6 @@ body {
     background: #1F2937;
     color: #f9faf8;
     gap: 200px;
-   
 }
 
 .logo {
@@ -20,57 +19,6 @@ body {
     font-weight: 600;
 }
 
-button {
-    background: #3882f6;
-    color: #f9faf8;
-    font-family: roboto, sans-serif;
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
-    
-}
-
-.containerhero {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #1F2937;
-    gap: 200px;
-    padding: 120px;
-}
-.subtext {
-    display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-.placeholder {
-    border: 0;
-    width: 600px;
-}
-
-.images {
-    display: flex;
-    justify-content: center;
-}
-.imageinfo {
-    width: 200px;
-}
-.information {
-    display: flex;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 500;
-    padding-bottom: 30px;
-}
-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    border: 3px solid #3882f6;
-}
-
-
-/*underneath is color and text adjustments*/
 ul {
     display: flex;
     list-style-type: none;
@@ -82,10 +30,91 @@ a {
     font-size: 24px;
     color: #f9faf8;
 }
+.containerhero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #1F2937;
+    gap: 200px;
+    padding: 120px;
+}
 .text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
+.subtext {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    font-family: roboto, sans-serif;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    
+}
+.placeholder {
+    justify-content: center;
+    background: #e5e7eb;
+    width: 600px;
+    height: 200px;
+    
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 50px;
+}
+    
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+}
+
+.imagetext {
+    width: 200px;
+    font-size: 14px;
+}
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 40px;
+}
+.quotetext {
+    width: 400px;
+    height: 200px;
+}
+p {
+   font-size: 14px;
+   font-style: normal;
+}
+
+
 
 
