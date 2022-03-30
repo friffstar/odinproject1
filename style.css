@@ -98,7 +98,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 250px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
@@ -115,6 +115,7 @@ p {
    width: 180px;
    font-weight: 700;
 }
+
 
 
 
